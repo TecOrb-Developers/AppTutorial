@@ -102,7 +102,7 @@ public class MainActivity extends TutorialActivity{
             page.setDescriptionTextSize(18);
         }
 
-        setPageTransformer(PagerTransformations.setDepthTransformation());
+        setPageTransformer(PagerTransformations.getDepthTransformation());
         setInactiveIndicatorColor(R.color.grey_600);
         setActiveIndicatorColor(R.color.colorWhite);
         setTutorialPages(pages);
