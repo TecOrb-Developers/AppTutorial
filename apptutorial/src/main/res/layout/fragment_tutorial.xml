@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/tutorialIV"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:layout_marginBottom="@dimen/dp48"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textSize="@dimen/textSize20sp"
+                android:maxLines="1"
+                app:autoSizeMinTextSize="@dimen/textSize14sp"
+                app:autoSizeStepGranularity="1sp"
+                app:autoSizeTextType="uniform"
+                android:layout_marginBottom="@dimen/dp8"
+                android:textStyle="bold"
+                android:textColor="@color/solid_black"
+                android:id="@+id/tutorialTitleTV"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textSize="@dimen/textSize16sp"
+                android:layout_marginBottom="@dimen/dp16"
+                app:autoSizeMinTextSize="@dimen/textSize12sp"
+                app:autoSizeStepGranularity="1sp"
+                app:autoSizeTextType="uniform"
+                android:textColor="@color/colorDarkRedSignInBtn"
+                android:id="@+id/tutorialDescriptionTV"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>
+</layout>
