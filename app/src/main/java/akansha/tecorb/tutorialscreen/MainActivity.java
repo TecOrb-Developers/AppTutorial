@@ -41,12 +41,13 @@ public class MainActivity extends TutorialActivity{
             page.setDescriptionTextSize(18);
         }
 
-        setPageTransformer(PagerTransformations.setDepthTransformation());
+        setPageTransformer(PagerTransformations.getDepthTransformation());
         setInactiveIndicatorColor(R.color.grey_600);
         setActiveIndicatorColor(R.color.colorWhite);
         setTutorialPages(pages);
         changePreviousImageIcon(R.drawable.ic_back_black);
         changeSkipTextColor(R.color.black);
+
 
     }
 

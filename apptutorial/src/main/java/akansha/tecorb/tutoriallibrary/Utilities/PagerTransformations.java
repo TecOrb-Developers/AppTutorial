@@ -15,30 +15,30 @@ import akansha.tecorb.tutoriallibrary.ViewPagerTransformations.ZoomOutTransforma
 
 public class PagerTransformations {
 
-    public static DepthTransformation setDepthTransformation(){
+    public static DepthTransformation getDepthTransformation(){
         return new DepthTransformation();
     }
-    public static FadeOutTransformation setFadeOutTansformation(){
+    public static FadeOutTransformation getFadeOutTansformation(){
         return new FadeOutTransformation() ;
     }
-    public static FidgetSpinTransformation setFidgetSpinTransformation(){
+    public static FidgetSpinTransformation getFidgetSpinTransformation(){
         return new FidgetSpinTransformation();
     }
-    public static HingeTransformation setHingeTransformation(){
+    public static HingeTransformation getHingeTransformation(){
         return new HingeTransformation() ;
     }
-    public static PopTransformation setPopTransformation(){
+    public static PopTransformation getPopTransformation(){
         return new PopTransformation() ;
     }
 
-    public static VerticalFlipTransformation setVerticalFlipTransformation(){
+    public static VerticalFlipTransformation getVerticalFlipTransformation(){
         return new VerticalFlipTransformation() ;
     }
 
-    public static VerticalShutTransformation setVerticalShutTransformation(){
+    public static VerticalShutTransformation getVerticalShutTransformation(){
         return new VerticalShutTransformation() ;
     }
-    public static ZoomOutTransformation setZoomOutTransformation(){
+    public static ZoomOutTransformation getZoomOutTransformation(){
         return new ZoomOutTransformation() ;
     }
 
