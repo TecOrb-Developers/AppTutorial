@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/AppTutorial.iml" filepath="$PROJECT_DIR$/AppTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/TutorialScreen.iml" filepath="$PROJECT_DIR$/TutorialScreen.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/apptutorial/apptutorial.iml" filepath="$PROJECT_DIR$/apptutorial/apptutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/apptutorial/tutoriallibrary.iml" filepath="$PROJECT_DIR$/apptutorial/tutoriallibrary.iml" />
     </modules>
