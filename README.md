@@ -12,7 +12,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ```groovy
 dependencies {
-	compile 'com.github.SharmaAkansha:AppTutorial:-SNAPSHOT'
+	implementation 'com.github.TecOrb-Developers:AppTutorial:1.0'
 }
 ```
 
