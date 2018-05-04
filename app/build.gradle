@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "akansha.tecorb.tutorialscreen"
+        applicationId "akansha.tecorb.tutoriallibrary"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

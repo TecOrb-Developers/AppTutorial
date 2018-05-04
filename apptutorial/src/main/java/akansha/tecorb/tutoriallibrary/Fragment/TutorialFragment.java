@@ -20,8 +20,6 @@ import akansha.tecorb.tutoriallibrary.R;
 import akansha.tecorb.tutoriallibrary.TutorialPages;
 import akansha.tecorb.tutoriallibrary.databinding.FragmentTutorialBinding;
 
-import static android.databinding.DataBindingUtil.inflate;
-
 /**
  * Created by tecorb on 26/3/18.
  */
@@ -66,9 +64,9 @@ public class TutorialFragment extends Fragment {
         int descriptionTextSize = bundle.getInt(DESCRIPTION_TEXT_SIZE, 16);
         int imageResId = bundle.getInt(IMAGE_ID, 0);
 
-        FragmentTutorialBinding tutorialBinding = inflate(inflater,R.layout.fragment_tutorial,
+        FragmentTutorialBinding tutorialBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_tutorial,
                 container,false);
-        View  view = tutorialBinding.getRoot() ;
+        View  view = tutorialBinding.root;
 
         if (title != null) {
             tutorialBinding.tutorialTitleTV.setText(title);
